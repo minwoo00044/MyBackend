@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 public enum SceneName
 {
     Logo = 0,
-    Login,
+    Login = 1,
+    Lobby = 2,
 }
 public class Utils : MonoBehaviour
 {

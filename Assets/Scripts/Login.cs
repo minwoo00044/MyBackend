@@ -49,6 +49,7 @@ public class Login : LoginBase
             if(callback.IsSuccess())
             {
                 SetMessage($"{inputFieldID.text}님 환영합니다.");
+                Utils.LoadScene(SceneName.Lobby);
             }
             else
             {

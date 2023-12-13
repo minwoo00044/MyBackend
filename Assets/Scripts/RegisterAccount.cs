@@ -73,6 +73,8 @@ public class RegisterAccount : LoginBase
                     if(callback.IsSuccess())
                     {
                         SetMessage($"계정 생성 성공.{inputFieldID.text}님 환영합니다.");
+
+                        Utils.LoadScene(SceneName.Lobby);
                     }
                 });
             }
